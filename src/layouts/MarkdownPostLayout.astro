@@ -18,6 +18,6 @@ function getDate(rawDate: string): string {
   <p>{frontmatter.description}</p>
   <span>{getDate(frontmatter.pubDate)}</span>
   <br />
-  {frontmatter.tags.map((item: string) => <span>{item}, </span>)}
+  <!-- {frontmatter.tags.map((item: string) => <span>{item}, </span>)} -->
   <slot />
 </BaseLayout>
